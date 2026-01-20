@@ -10,7 +10,7 @@
 }
 
 body{
-    background-color: greenyellow;
+    /* background-color: #c5f0d9; */
     margin: 0 auto;
 }
 .btn{
@@ -105,8 +105,24 @@ header .frame-698 .first-button-frame{
     line-height: 19px;
     font-style: medium;
 }
+.note{
+    background: wheat;
+    width: 1360px;
+    height: 117px;
+    text-align: center;
+    text-transform: capitalize;
+    
+}
 
-
+.note h1{
+    font-size: 48px;
+}
+.note p{
+    font-size: 16px;
+}
+.card-container{
+    display: flex;
+    
 .card{
  width: 322px;
  height: 300px;
@@ -118,15 +134,17 @@ header .frame-698 .first-button-frame{
  justify-content: center;
  align-items: center;
  list-style: none;
- background: rgba(255, 255, 255, 1);
+ background: #FFFFFF;
+ 
 }
 .card img{
     width: 32px;
     height: 32px;
-    padding: 2.5px 5.5px;
-    border: 14.38px 14.07px 13.62px 13.93px;
+    /* padding: 2.5px 5.5px; */
     background: #F95555;
-    box-sizing: border-box;
+    border-radius: 50%;
+    display;
+
 
 }
 
@@ -141,32 +159,80 @@ header .frame-698 .first-button-frame{
 
 
 
-.knowledge{
+
+.second-container{
+    width: 1300px;
+    height: 600px;
     display: flex;
-    justify-content: center;
-    list-style: none;
-    text-decoration: none;
-}
-
-
-
-footer{
+    flex-direction: row;
+    justify-content: flex-start;
     align-items: center;
-    text-decoration: none;
-    justify-content: space-between;
-    display: flex;
-}
-/* footer div{ */
-    display: flex;
-    text-decoration: none;
-    list-style: none;
+    gap: 60;
+    /* background-color: #F95555; */
     
 }
-/* footer ul{  */
+ 
+}
+.second-container .knowledge{
+ border-radius: 12px;
+ width: 600px;
+ height: 600px;
+ display: flex;
+ 
+ 
+}
+.Solution h6{
+    font-size: 16px;
+}
+
+.Solution h1{
+    font-size: 48px;
+    width: 700px;
+    height: 117px;
+}
+.Solution p{
+    width: 700px;
+    height: 60px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+}
+.list-items{
     display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16;
+}
+
+ footer{ 
+    width: 1600px;
+    height: 384px;
+    padding: 120px 120px 30px 120px;
+    display: flex;
+    flex-direction: column;
+    gap: 80;
+    align-items: flex-start;
+    background: var(--style, rgba(0, 25, 49, 1));
+   
+
+}
+
+footer nav{
+    display: flex;
+    gap: 80;
+}
+    
+    
+.Social li a{  
+    display: flex;
+    list-style: none;
     text-decoration: none;
-    justify-content: space-between;
+    margin: 0 auto;
+    gap: 80;
 }
 footer p{
     text-align: center bottom;
+    margin: 0 auto;
+    
 }
